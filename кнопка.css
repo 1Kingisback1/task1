@@ -1,0 +1,22 @@
+.back {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    right: 40px;
+    bottom: 40px;
+    background: url(button.png);
+    background-size: cover;
+    z-index: 1;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.back.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+section title {
+    text-align: center;
+}
